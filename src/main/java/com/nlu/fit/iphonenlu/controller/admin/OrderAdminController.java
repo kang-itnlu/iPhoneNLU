@@ -303,7 +303,7 @@ public class OrderAdminController {
 				+ order.getAddress() 
 				+ "\n"
 				+ "\n" 
-				+ "Cảm ơn bạn đã mua hàng tại GoalShop : " 
+				+ "Cảm ơn bạn đã mua hàng tại iPhoneNLU : "
 		+ "\n" 
 		+ "================================");
 

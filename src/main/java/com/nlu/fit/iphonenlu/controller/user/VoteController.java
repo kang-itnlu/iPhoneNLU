@@ -2,7 +2,6 @@ package com.nlu.fit.iphonenlu.controller.user;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -43,7 +42,7 @@ public class VoteController {
 		vo.setVote_Content(content);
 		vo.setVote(vote);
 		if(file!=null) {
-			File saveFile = commservice.save(file , "/assets/images/comments/");
+			File saveFile = commservice.save(file , "/static.assets/images/comments/");
 			vo.setImage(file.getOriginalFilename());
 		}
 		dao.save(vo);

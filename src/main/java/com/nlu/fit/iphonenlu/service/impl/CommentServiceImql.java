@@ -31,7 +31,7 @@ public class CommentServiceImql implements CommentService {
 	@Override
 	public File save(MultipartFile file, String path) throws IOException {
 		if(!file.isEmpty()) {
-			String path1 = "D://java6//toinghiep//GoalShop//src//main//resources//static";
+			String path1 = "E://4th Year second semester//Github//iPhoneNLU//src//main//resources//static";
 			File directory = new File(path1 + path);
 			if (!directory.exists()) {
 				directory.mkdirs();

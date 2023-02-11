@@ -34,7 +34,7 @@ public class InfoController {
 	public String infonew(Model model, Account acc, @RequestParam("photo_img") MultipartFile file) throws IOException {
 		model.addAttribute("acc", acc);
 		if (dao.existsById(acc.getUsername())) {
-			File saveFile = accservice.save(file, "/assets/images");
+			File saveFile = accservice.save(file, "/static.assets/images");
 			String filename = file.getOriginalFilename();
 			if (filename == "") {
 				accservice.update(acc);

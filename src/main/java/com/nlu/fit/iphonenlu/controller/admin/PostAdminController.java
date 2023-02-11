@@ -173,7 +173,7 @@ public class PostAdminController {
 	@RequestMapping("admin/post/update")
 	public String update(Post post, Model model, @RequestParam("photo_img") MultipartFile file) throws IOException {
 		if (postDao.existsById(post.getPost_id())) {
-			File saveFile = postService.save(file, "/assets/images");
+			File saveFile = postService.save(file, "/static.assets/images");
 			
 			String filename = file.getOriginalFilename();
 		
@@ -221,7 +221,7 @@ public class PostAdminController {
 	
 	@RequestMapping("/admin/post/create")
 	public String create(Post post, Model model, @RequestParam("photo_img") MultipartFile file) throws IOException {
-		File saveFile = postService.save(file, "assets/images");
+		File saveFile = postService.save(file, "static.assets/images");
 	
 		String filename1 = file.getOriginalFilename();
 	

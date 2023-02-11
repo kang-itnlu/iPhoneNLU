@@ -249,38 +249,38 @@ public class ProductAdminController {
 					if (file[i].getOriginalFilename().equals("")) {
 						break;
 					} else {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage1(file[i].getOriginalFilename());
 					}
 				}
 				;
 				if (i == 1) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage2(file[i].getOriginalFilename());
 				}
 				;
 				if (i == 2) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage3(file[i].getOriginalFilename());
 				}
 				;
 				if (i == 3) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage4(file[i].getOriginalFilename());
 				}
 				;
 				if (i == 4) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage5(file[i].getOriginalFilename());
 				}
 				;
 				if (i == 5) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage6(file[i].getOriginalFilename());
 				}
 				;
 				if (i == 6) {
-					File saveFile = proservice.save(file[i], "/assets/images");
+					File saveFile = proservice.save(file[i], "/static.assets/images");
 					pro.setImage7(file[i].getOriginalFilename());
 				}
 				;
@@ -329,38 +329,38 @@ public class ProductAdminController {
 						if (file[i].getOriginalFilename().equals("")) {
 							break;
 						} else {
-							File saveFile = proservice.save(file[i], "/assets/images");
+							File saveFile = proservice.save(file[i], "/static.assets/images");
 							pro.setImage1(file[i].getOriginalFilename());
 						}
 					}
 					;
 					if (i == 1) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage2(file[i].getOriginalFilename());
 					}
 					;
 					if (i == 2) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage3(file[i].getOriginalFilename());
 					}
 					;
 					if (i == 3) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage4(file[i].getOriginalFilename());
 					}
 					;
 					if (i == 4) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage5(file[i].getOriginalFilename());
 					}
 					;
 					if (i == 5) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage6(file[i].getOriginalFilename());
 					}
 					;
 					if (i == 6) {
-						File saveFile = proservice.save(file[i], "/assets/images");
+						File saveFile = proservice.save(file[i], "/static.assets/images");
 						pro.setImage7(file[i].getOriginalFilename());
 					}
 					;

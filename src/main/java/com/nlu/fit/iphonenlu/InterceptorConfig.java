@@ -17,7 +17,7 @@ public class InterceptorConfig implements WebMvcConfigurer{
 	public void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(globalInterceptor)
 		.addPathPatterns("/**")
-		.excludePathPatterns("/rest/**","/assets/**");
+		.excludePathPatterns("/rest/**", "/static.assets/**");
 		// cái này là sẽ không hiển thị globalInterceptor lên các ip bên dưới
 	}
 	

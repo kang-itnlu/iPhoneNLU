@@ -143,7 +143,7 @@ public class AccountAdminController {
 	@RequestMapping("admin/account/update")
 	public String update(Account acc, Model model, @RequestParam("photo_img") MultipartFile file) throws IOException {
 		if (aDao.existsById(acc.getUsername())) {
-			File saveFile = accountService.save(file, "assets/images");
+			File saveFile = accountService.save(file, "static.assets/images");
 			
 			String filename = file.getOriginalFilename();
 		
@@ -192,7 +192,7 @@ public class AccountAdminController {
 	
 	@RequestMapping("/admin/account/create")
 	public String create(Account acc, Model model, @RequestParam("photo_img") MultipartFile file) throws IOException {
-		File saveFile = accountService.save(file, "assets/images");
+		File saveFile = accountService.save(file, "static.assets/images");
 	
 		String filename1 = file.getOriginalFilename();
 	
