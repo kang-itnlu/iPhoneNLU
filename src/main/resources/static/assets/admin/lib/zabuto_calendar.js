@@ -137,8 +137,8 @@ $.fn.zabuto_calendar = function (options) {
 
         function appendMonthHeader($calendarElement, $tableObj, year, month) {
             var navIcons = $calendarElement.data('navIcons');
-            var $prevMonthNavIcon = $('<span><span class="fa fa-chevron-left text-transparent"></span></span>');
-            var $nextMonthNavIcon = $('<span><span class="fa fa-chevron-right text-transparent"></span></span>');
+            var $prevMonthNavIcon = $('<span><span class="bi bi-chevron-left text-transparent"></span></span>');
+            var $nextMonthNavIcon = $('<span><span class="bi bi-chevron-right text-transparent"></span></span>');
             if (typeof(navIcons) === 'object') {
                 if ('prev' in navIcons) {
                     $prevMonthNavIcon.html(navIcons.prev);

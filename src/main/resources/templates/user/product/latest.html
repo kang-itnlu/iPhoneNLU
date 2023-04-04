@@ -87,7 +87,7 @@
 				        </span>
 
 						<span class="sales__product" th:if="${p.distcount} > 0">
-				            <i class="fa fa-bolt" style="font-size:18px"></i> Giảm [[${#numbers.formatDecimal(p.distcount, 1 , 'COMMA',0,'POINT')}]] %
+				            <i class="bi bi-bolt" style="font-size:18px"></i> Giảm [[${#numbers.formatDecimal(p.distcount, 1 , 'COMMA',0,'POINT')}]] %
 				        </span>
 						<div class="caption product-detail text-center" >
 							<h6 data-name="product_name" class="product-name mt_20">
@@ -108,11 +108,11 @@
 		<div class="text-center">
 		<div class="dataTables_paginate paging_bootstrap pagination text-center">
 			<ul>
-				<li><a href="/product/latest?page=0"><i class="fa fa-angle-left"></i></a></li>
+				<li><a href="/product/latest?page=0"><i class="bi bi-angle-left"></i></a></li>
 				<li class="active"><a href="/product/list?page=0">1</a></li>
 				<li><a href="/product/latest?page=1">2</a></li>
 				<li><a href="/product/latest?page=2">3</a></li>
-				<li><a href="/product/latest?page=3"><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="/product/latest?page=3"><i class="bi bi-angle-right"></i></a></li>
 			</ul>
 		</div>
 		</div>

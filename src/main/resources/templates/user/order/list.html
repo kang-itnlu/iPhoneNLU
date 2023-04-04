@@ -30,13 +30,13 @@
 						</td>
 						<td>
 							<a th:href="@{|/order/detail/${order.order_id}|}"
-								class="btn btn-info"> <b class="fa fa-eye"></b>
+								class="btn btn-info"> <b class="bi bi-eye"></b>
 							</a>
 						
 							<button th:if="*{order.Status}==0" type="button" class="btn btn-warning"
 								data-toggle="modal" 
 								th:attr="ng-click=@{|cart.get_infoorderid(${order.order_id})|}"
-								 data-target="#myModal"><i class="fa fa-times-circle"></i></button> <!-- Modal -->
+								 data-target="#myModal"><i class="bi bi-times-circle"></i></button> <!-- Modal -->
 							
 							<div class="modal fade" id="myModal" role="dialog">
 							<form tH:action="@{/order/remove}" method="post" >

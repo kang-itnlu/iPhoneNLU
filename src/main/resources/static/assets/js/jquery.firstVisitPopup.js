@@ -20,7 +20,7 @@
         } else { 
           
          $("#subscribe-me").modal('hide');
-         $('.banner').before('<div class="alert alert-success"><i class="fa fa-check-circle"></i>Subscription Success<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+         $('.banner').before('<div class="alert alert-success"><i class="bi bi-check-circle"></i>Subscription Success<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
             return false;
         }
     }

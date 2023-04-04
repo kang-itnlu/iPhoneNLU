@@ -3756,7 +3756,7 @@ table {
         bottom: 20px;
         color: #fff;
         content: "\f106";
-        font-family: fontawesome;
+        font-family: fontawesome, serif;
         font-size: 25px;
         height: 40px;
         padding: 6px 12px;

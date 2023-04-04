@@ -16,19 +16,19 @@
               <div class="location mb_50">
                 <h5 class="capitalize mb_20"><strong>Địa Điểm Của Chúng Tôi</strong></h5>
                 <div class="address">Địa chỉ văn phòng
-                  <br> 303 Phạm Văn Đồng - Phường 1
-                  <br> Gò Vấp - Tp.Hồ Chí Minh</div>
-                <div class="call mt_10"><i class="fa fa-phone" aria-hidden="true"></i>0123456789</div>
+                  <br> QL1A - Phường Linh Trung
+                  <br> Thủ Đức - Tp.Hồ Chí Minh</div>
+                <div class="call mt_10"><i class="bi bi-phone" aria-hidden="true"></i>0123456789</div>
               </div>
               <div class="Career mb_50">
                 <h5 class="capitalize mb_20"><strong>Nghề Nghiệp</strong></h5>
                 <div class="address"></div>
-                <div class="email mt_10"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:thuonghoaiabcd@gmail.com" target="_top">thuonghoaiabcd@gmail.com</a></div>
+                <div class="email mt_10"><i class="bi bi-envelope" aria-hidden="true"></i><a href="mailto:iphonenlu@gmail.com" target="_top">iphonenlu@gmail.com</a></div>
               </div>
               <div class="Hello mb_50">
                 <h5 class="capitalize mb_20"><strong>Nói Xin Chào</strong></h5>
                 <div class="address">Uy tín - Chất lượng - tiện ích</div>
-                <div class="email mt_10"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:thuonghoaiabcd@gmail.com" target="_top">thuonghoaiabcd@gmail.com</a></div>
+                <div class="email mt_10"><i class="bi bi-envelope" aria-hidden="true"></i><a href="mailto:iphonenlu@gmail.com" target="_top">iphonenlu@gmail.com</a></div>
               </div>
             </div>
             <div class="col-md-8 col-xs-12 contact-form mtb_20 ">
@@ -36,20 +36,20 @@
              <!-- Contact FORM -->
               <div 	 class="form-group">
                 <form id="contact_body" method="post" action="contact">
-                  <!--                                <label class="full-with-form" ><span>Name</span></label>
--->
+                <label class="full-with-form" ><span>Name</span></label>
+
                   <input style="    border-radius: 15px;" class="form-control" required type="text" name="content" th:value="${#request.remoteUser}" placeholder="Tên " data-required="true" readonly />
-                  <!--                <label class="full-with-form" ><span>Email Address</span></label>
--->
+                  <label class="full-with-form" ><span>Email Address</span></label>
+
                  
                   <input style="    border-radius: 15px;" class="form-control  mt_30" required type="text" name="phone1" placeholder="Số điện thoại" maxlength="15" data-required="true" />
-                  <!--                <label class="full-with-form" ><span>Subject</span></label>
--->
+                              <label class="full-with-form" ><span>Subject</span></label>
+
                   <input style="    border-radius: 15px;" class="form-control  mt_30" required type="text" name="subject" placeholder="Tiêu đề" data-required="true">
-                  <!--                                <label class="full-with-form" ><span>Attachment</span></label>
--->
-                  <!--                                <label class="full-with-form" ><span>Message</span></label>
--->
+                                                <label class="full-with-form" ><span>Attachment</span></label>
+
+                                              <label class="full-with-form" ><span>Message</span></label>
+
                   <textarea class="form-control  mt_30" name="message" placeholder="Nội dung" data-required="true"></textarea>
                   <div class="text-center">
                   <button class="btn mt_30 "type="submit">Gửi mail</button>
