@@ -9,11 +9,10 @@
 <!-- 			</p> -->
 			<a style="color: rgb(250, 244, 244);  text-transform: uppercase;" th:href="@{|/admin/info?username=${#request.remoteUser}|}"><h4
 					class="centered">[[${#request.remoteUser}]]</h4></a>
-			<li class="mt" ><a th:href="@{/admin/home/index}"> <i
-					class="bi bi-home"></i> <span>Trang chủ</span>
+			<li class="mt" ><a th:href="@{/admin/home/index}"> <i class="fa-solid fa-house"></i> <span>Trang chủ</span>
 			</a></li>
 			<li class="sub-menu"><a href="javascript:;"> <i
-					class="bi bi-th-large"></i> <span>Quản lý hàng hóa</span>
+					class="fa-solid fa-mobile"></i> <span>Quản lý hàng hóa</span>
 			</a>
 				<ul class="sub">
 					<li><a th:href="@{/admin/product/list}">Quản lý sản phẩm</a></li>
@@ -21,11 +20,9 @@
 					<li><a th:href="@{/admin/trademark/list}">Quản lý thương hiệu</a></li>
 
 				</ul></li>
-			<li class="sub-menu"><a th:href="@{/admin/order/list}"> <i
-					class="bi bi-dropbox"></i> <span>Quản lý Đơn hàng</span>
+			<li class="sub-menu"><a th:href="@{/admin/order/list}"> <i class="fa-solid fa-receipt"></i> <span>Quản lý Đơn hàng</span>
 			</a></li>
-			<li class="sub-menu"><a href="javascript:;"> <i
-					class=" fa fa-bar-chart-o"></i> <span>Thống kê</span>
+			<li class="sub-menu"><a href="javascript:;"> <i class="fa-solid fa-chart-simple"></i> <span>Thống kê</span>
 			</a>
 				<ul class="sub">
 					<li><a th:href="@{/admin/char/product}">Doanh thu theo sản phẩm</a></li>
@@ -38,8 +35,7 @@
 				</ul></li>
 
 
-			<li class="sub-menu"><a href="javascript:;"> <i
-					class="fa fa-book"></i> <span>Tiện ích</span>
+			<li class="sub-menu"><a href="javascript:;"> <i class="fa-solid fa-bars"></i> <span>Tiện ích</span>
 			</a>
 				<ul class="sub">
 				<li><a th:href="@{/admin/post/list}">Quản lý bài viết</a></li>
@@ -52,8 +48,7 @@
 				href="https://bot.fpt.ai/bot/cf94e1c1cee13473872a7422c7cd7ef2/history/?page=1&sortBy=created_time&sortOrder=desc">
 					<i class="fa fa-comments-o"></i> <span>Chat boot</span>
 			</a></li> -->
-			<li class="sub-menu"><a th:href="@{/admin/account/list}"> <i
-					class="fa fa-users"></i> <span>Quản lý tài khoản</span>
+			<li class="sub-menu"><a th:href="@{/admin/account/list}"> <i class="fa-solid fa-user"></i> <span>Quản lý tài khoản</span>
 			</a></li>
 			<li><a th:href="@{/admin/authority}"> <i class="fa fa-cogs"></i>
 					Phân quyền

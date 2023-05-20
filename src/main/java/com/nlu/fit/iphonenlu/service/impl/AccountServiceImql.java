@@ -64,7 +64,7 @@ public class AccountServiceImql implements AccountService {
 	@Override
 	public File save(MultipartFile file, String path) throws IOException {
 		if(!file.isEmpty()) {
-			String path1 = "E://4th Year second semester//Github//iPhoneNLU//src//main//resources//static";
+			String path1 = "E:/4th Year second semester/Github/iPhoneNLU/src/main/resources/";
 			File directory = new File(path1 + path);
 			if (!directory.exists()) {
 				directory.mkdirs();

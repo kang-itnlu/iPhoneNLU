@@ -2025,14 +2025,7 @@ table {
         color: #9E9E9E;
         padding-left: 5px;
     }
-    
-    .header-top-left .contact>a::before {
-        content: "\f025";
-        font-family: fontawesome;
-        font-size: 18px;
-        padding-right: 9px;
-        vertical-align: -1px;
-    }
+
     
     .header {
         background: #025661;
@@ -3755,8 +3748,6 @@ table {
         background: #198997 none repeat scroll 0 0;
         bottom: 20px;
         color: #fff;
-        content: "\f106";
-        font-family: fontawesome, serif;
         font-size: 25px;
         height: 40px;
         padding: 6px 12px;

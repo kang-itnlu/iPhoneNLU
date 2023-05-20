@@ -29,6 +29,9 @@
 <!-- Custom styles for this template -->
 <link href="/assets/admin/css/style.css" rel="stylesheet">
 <link href="/assets/admin/css/style-responsive.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
 <script type="text/javascript"
 	src="https://www.gstatic.com/charts/loader.js"></script>
 <script
@@ -80,7 +83,7 @@
 									</div>
 									<div class="col-sm-4 col-xs-6">
 										<div style="margin-left: -25px" class="icon_admin">
-											<i class="bi bi-mobile-phone"
+											<i class="fa-solid fa-mobile"
 												style="font-size: 64px; color: #4ecdc4;"></i>
 										</div>
 									</div>
@@ -101,7 +104,7 @@
 									</div>
 									<div class="col-sm-4 col-xs-6">
 										<div style="margin-left: -25px" class="icon_admin_2">
-											<i class="bi bi-shopping-cart"
+											<i class="fa-solid fa-cart-shopping"
 												style="font-size: 46px; color: #8075c4;"></i>
 										</div>
 									</div>
@@ -122,7 +125,7 @@
 									</div>
 									<div class="col-sm-4 col-xs-6">
 										<div style="margin-left: -25px" class="icon_admin_3">
-											<i class="bi bi-users"
+											<i class="fa-solid fa-user"
 												style="font-size: 40px; color: #FCB322;"></i>
 										</div>
 									</div>
@@ -143,7 +146,7 @@
 									</div>
 									<div class="col-sm-4 col-xs-6">
 										<div style="margin-left: -25px" class="icon_admin_4">
-											<i class="bi bi-book"
+											<i class="fa-solid fa-book"
 												style="font-size: 40px; color: #5dbcff;"></i>
 										</div>
 									</div>
@@ -172,9 +175,9 @@
 								<thead>
 									<tr>
 
-										<th><i class="bi bi-barcode"></i> Mã đơn hàng</th>
-										<th><i class="bi bi-money"></i> Tổng tiền</th>
-										<th><i class="bi bi-user"></i> Người mua</th>
+										<th><i class="fa-solid fa-barcode"></i> Mã đơn hàng</th>
+										<th><i class="fa-solid fa-dollar-sign"></i> Tổng tiền</th>
+										<th><i class="fa-solid fa-user"></i> Người mua</th>
 
 									</tr>
 								</thead>
@@ -255,9 +258,9 @@
 								<thead>
 									<tr>
 
-										<th><i class="fa fa-barcode"></i> Mã đơn hàng</th>
-										<th><i class="fa fa-user"></i> Người mua</th>
-										<th><i class="fa fa-clock-o"></i> Ngày đặt</th>
+										<th><i class="fa-solid fa-barcode"></i> Mã đơn hàng</th>
+										<th><i class="fa-solid fa-user"></i> Người mua</th>
+										<th><i class="fa-solid fa-calendar-days"></i> Ngày đặt</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -272,9 +275,6 @@
 								</tbody>
 							</table>
 							<div class=" text-center">
-								<button ng-click="pager.first()" class="btn btn-theme03">
-									<b class="glyphicon glyphicon-hand-up"></b>
-								</button>
 								<button ng-click="pager.prev()" class="btn btn-theme03">
 									<b class="glyphicon glyphicon-hand-left"></b>
 								</button>
@@ -282,9 +282,6 @@
 									{{pager.count}}</button>
 								<button ng-click="pager.next()" class="btn btn-theme03">
 									<b class="glyphicon glyphicon-hand-right"></b>
-								</button>
-								<button ng-click="pager.last()" class="btn btn-theme03">
-									<b class="glyphicon glyphicon-hand-down"></b>
 								</button>
 								<a class="btn btn-round  btn-theme"
 									th:href="@{/admin/order/list}">Xem thêm</a>

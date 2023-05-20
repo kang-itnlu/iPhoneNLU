@@ -12,14 +12,12 @@
 								<div ng-hide="isShow" class="wishlist" th:attr="ng-click=@{|Addfavorite(${item.product_id},true)|}">
 								</div>
 								<div ng-show="isShow" class="delete-wishlist" th:attr="ng-click=@{|deleteFavoriteUser(${item.product_id} , false)|}">
-									<i class="bi bi-heart" style="font-size:20px; color:red; margin-top: 13px"></i>
 								</div>
 							</div>
 							<div th:if="${checklist}!=0">
 								<div ng-hide="!isShow" class="wishlist" th:attr="ng-click=@{|Addfavorite(${item.product_id},false)|}">
 								</div>
 								<div ng-show="!isShow" class="delete-wishlist" th:attr="ng-click=@{|deleteFavoriteUser(${item.product_id} , true)|}">
-									<i class="bi bi-heart" style="font-size:20px; color:red; margin-top: 13px"></i>
 								</div>
 							</div>
 				<div>

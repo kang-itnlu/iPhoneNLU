@@ -132,9 +132,9 @@ app.controller("trademark-ctrl", function($scope, $http) {
         $http.put(`/rest/trademarks/${item.trademark_id}`, item).then(resp => {
             var index = $scope.items.findIndex(p => p.id == item.id);
             $scope.items[index] = item;
-            alert("Cập nhập thành công");
+            alert("Cập nhật thành công");
         }).catch(error => {
-            alert("Cập nhập thất bại");
+            alert("Cập nhật thất bại");
             console.log("Error", error);
         })
     }
@@ -217,9 +217,9 @@ app.controller("category-ctrl", function($scope, $http) {
         $http.put(`/rest/categories/${item.category_id}`, item).then(resp => {
             var index = $scope.items.findIndex(p => p.id == item.id);
             $scope.items[index] = item;
-            alert("Cập nhập thành công");
+            alert("Cập nhật thành công");
         }).catch(error => {
-            alert("Cập nhập thất bại");
+            alert("Cập nhật thất bại");
             console.log("Error", error);
         })
     }

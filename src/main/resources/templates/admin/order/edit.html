@@ -94,9 +94,9 @@
 						</div>
 						<div class="text-center">
 						
-						<button th:if="${ord.Status}>2" type="submit" class="btn btn-round btn-info" disabled="disabled"><span class="glyphicon glyphicon-check"></span> Cập nhập</button>
+						<button th:if="${ord.Status}>2" type="submit" class="btn btn-round btn-info" disabled="disabled"><span class="glyphicon glyphicon-check"></span> Cập nhật</button>
 				
-						<button th:if="${ord.Status}<3" type="submit" class="btn btn-round btn-info" ><span class="glyphicon glyphicon-check"></span> Cập nhập</button>
+						<button th:if="${ord.Status}<3" type="submit" class="btn btn-round btn-info" ><span class="glyphicon glyphicon-check"></span> Cập nhật</button>
 						
 						<a th:href="@{|/admin/order/sent/${ord.Order_id}|}"
 										class='btn btn-round btn-info'><span
