@@ -34,7 +34,22 @@
 				<div class="row">
 					<div class="form-group col-sm-12">
 						<div class="thongtin">Địa chỉ giao hàng</div>
-						<textarea ng-model="order1.address"  class="form-control"></textarea>
+						<div>
+							<select class="form-select form-select-sm mb-3" id="city" aria-label=".form-select-sm">
+								<option value="" selected>Chọn tỉnh thành</option>
+							</select>
+
+							<select class="form-select form-select-sm mb-3" id="district" aria-label=".form-select-sm">
+								<option value="" selected>Chọn quận huyện</option>
+							</select>
+
+							<select class="form-select form-select-sm" id="ward" aria-label=".form-select-sm">
+								<option value="" selected>Chọn phường xã</option>
+							</select>
+							<label for="homeNo">Số nhà, Đường:</label><input type = "text" id ="homeNo">
+						</div>
+						<textarea ng-model="order.address" class="form-control" required id="addressFinal"></textarea>
+
 					</div>
 				</div>
 			</div>

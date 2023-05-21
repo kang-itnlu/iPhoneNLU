@@ -186,8 +186,8 @@
 										</div>
 							<div class="form-group col-sm-12">
 								<div>Chi tiết</div>
-								<textarea type="text" cols="7" rows="5" name="Detail" th:value="${pro.Detail}"
-									class="form-control">[[${pro.Detail}]]</textarea>
+								<textarea id = "editor" type="text" cols="7" rows="10" name="Detail" th:value="${pro.Detail}"
+									>[[${pro.Detail}]]</textarea>
 							</div>
 						</div>
 						<i class="pull-left text-success" th:utext="${message}"></i> <br>
